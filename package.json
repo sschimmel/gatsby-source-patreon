@@ -1,8 +1,7 @@
 {
   "name": "gatsby-source-patreon",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Gatsby source plugin to include Patreon as a data source",
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__"
   },
@@ -12,8 +11,13 @@
     "gatsby-source-plugin",
     "patreon"
   ],
-  "author": "Sebastiaan Schimmel",
-  "license": "ISC",
+  "author": "Sebastiaan Schimmel <hello@sebastiaanschimmel.me>",
+  "bugs": {
+    "url": "https://github.com/sschimmel/gatsby-source-patreon/issues"
+  },
+  "homepage": "https://github.com/sschimmel/gatsby-source-patreon",
+  "repository": "https://github.com/sschimmel/gatsby-source-patreon",
+  "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
     "axios": "^0.18.0",
